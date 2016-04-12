@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fnil\fcharset0 Consolas;\f1\fnil\fcharset0 Consolas-Italic;\f2\fnil\fcharset0 Consolas-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red234\green234\blue234;\red81\green50\blue60;
+\red38\green38\blue38;\red83\green116\blue151;\red26\green26\blue26;\red234\green234\blue234;\red38\green38\blue38;
+\red81\green50\blue60;\red83\green116\blue151;\red109\green109\blue109;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt\clvertalbase \clshdrawnil \clwWidth11360\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl350\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+<\cf4 h1\cf2 >Listing articles</\cf4 h1\cf2 >\cf5 \
+\'a0\cf2 \cb3 <%=\cf5  \cf2 link_to 
+\f1\i \cf6 'New article'
+\f0\i0 \cf2 , new_article_path %>\cf5 \
+\
+\cf2 \cb3 <\cf4 table\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0<\cf4 tr\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0<\cf4 th\cf2 >Title</\cf4 th\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0<\cf4 th\cf2 >Text</\cf4 th\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0</\cf4 tr\cf2 >\cf5 \cb3 \
+\'a0\
+\cf2 \cb3 \'a0\'a0<%\cf5 \cb3  
+\f2\b \cf2 \cb3 @articles
+\f0\b0 .\cf4 each\cf5 \cb3  \cf4 \cb3 do\cf5 \cb3  \cf2 \cb3 |article| %>\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0<\cf4 tr\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0\'a0\'a0<\cf4 td\cf2 ><%=\cf5 \cb3  \cf2 \cb3 article.title %></\cf4 td\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0\'a0\'a0<\cf4 td\cf2 ><%=\cf5 \cb3  \cf2 \cb3 article.text %></\cf4 td\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0\'a0\'a0<\cf4 td\cf2 ><%=\cf5 \cb3  \cf2 \cb3 link_to 
+\f1\i \cf6 'Show'
+\f0\i0 \cf2 , article_path(article) %></\cf4 td\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0\'a0\'a0</\cf4 tr\cf2 >\cf5 \cb3 \
+\cf2 \cb3 \'a0\'a0<%\cf5 \cb3  \cf4 \cb3 end\cf5 \cb3  \cf2 \cb3 %>\cf5 \cb3 \
+
+\itap2\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt\clvertalbase \clshdrawnil \clwWidth11360\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\sl350\partightenfactor0
+\cf7 \cb8 \outl0\strokewidth0 \strokec7 <\cf10 \strokec10 h1\cf7 \strokec7 >Listing Articles</\cf10 \strokec10 h1\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 <%=\cf9 \strokec9  \cf7 \strokec7 link_to 
+\f1\i \cf11 \strokec11 'New article'
+\f0\i0 \cf7 \strokec7 , new_article_path %>\cf9 \strokec9 \
+\cf7 \strokec7 <\cf10 \strokec10 table\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0<\cf10 \strokec10 tr\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0<\cf10 \strokec10 th\cf7 \strokec7 >Title</\cf10 \strokec10 th\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0<\cf10 \strokec10 th\cf7 \strokec7 >Text</\cf10 \strokec10 th\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0<\cf10 \strokec10 th\cf9 \strokec9  \cf12 \strokec12 colspan\cf7 \strokec7 =
+\f1\i \cf11 \strokec11 "3"
+\f0\i0 \cf7 \strokec7 ></\cf10 \strokec10 th\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0</\cf10 \strokec10 tr\cf7 \strokec7 >\cf9 \strokec9 \
+\'a0\
+\cf7 \strokec7 \'a0\'a0<%\cf9 \strokec9  
+\f2\b \cf7 \strokec7 @articles
+\f0\b0 .\cf10 \strokec10 each\cf9 \strokec9  \cf10 \strokec10 do\cf9 \strokec9  \cf7 \strokec7 |article| %>\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0<\cf10 \strokec10 tr\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0<\cf10 \strokec10 td\cf7 \strokec7 ><%=\cf9 \strokec9  \cf7 \strokec7 article.title %></\cf10 \strokec10 td\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0<\cf10 \strokec10 td\cf7 \strokec7 ><%=\cf9 \strokec9  \cf7 \strokec7 article.text %></\cf10 \strokec10 td\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0<\cf10 \strokec10 td\cf7 \strokec7 ><%=\cf9 \strokec9  \cf7 \strokec7 link_to 
+\f1\i \cf11 \strokec11 'Show'
+\f0\i0 \cf7 \strokec7 , article_path(article) %></\cf10 \strokec10 td\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0<\cf10 \strokec10 td\cf7 \strokec7 ><%=\cf9 \strokec9  \cf7 \strokec7 link_to 
+\f1\i \cf11 \strokec11 'Edit'
+\f0\i0 \cf7 \strokec7 , edit_article_path(article) %></\cf10 \strokec10 td\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0<\cf10 \strokec10 td\cf7 \strokec7 ><%=\cf9 \strokec9  \cf7 \strokec7 link_to 
+\f1\i \cf11 \strokec11 'Destroy'
+\f0\i0 \cf7 \strokec7 , article_path(article),\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0method: 
+\f2\b :delete
+\f0\b0 ,\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0data: \{ confirm: 
+\f1\i \cf11 \strokec11 'Are you sure?'
+\f0\i0 \cf9 \strokec9  \cf7 \strokec7 \} %></\cf10 \strokec10 td\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0\'a0\'a0</\cf10 \strokec10 tr\cf7 \strokec7 >\cf9 \strokec9 \
+\cf7 \strokec7 \'a0\'a0<%\cf9 \strokec9  \cf10 \strokec10 end\cf9 \strokec9  \cf7 \strokec7 %>\cf9 \strokec9 \
+\cf7 \strokec7 </\cf10 \strokec10 table\cf7 \strokec7 >\cf9 \strokec9 \nestcell \lastrow\nestrow
+\pard\intbl\itap1\pardeftab720\sl350\partightenfactor0
+\cf5 \cb3 \outl0\strokewidth0 \cell \lastrow\row
+}
